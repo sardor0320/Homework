@@ -1,0 +1,44 @@
+@import "expert";
+@import "contact";
+
+.hero__page {
+    width: 100%;
+    height: 100vh;
+    // background: #1A1A1A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    .hero__page--desc {
+        width: 350px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 2.1rem;
+        }
+
+        button {
+            padding: 10px 35px;
+            border-radius: 12px;
+            border: none;
+            background-color: #1E48EC;
+            color: white;
+        }
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+body {
+    background-color: #1A1A1A;
+}

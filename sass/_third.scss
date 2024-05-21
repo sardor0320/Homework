@@ -1,0 +1,63 @@
+@import "fourth";
+
+.third{
+    width: 100%;
+    height: 110vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .third__desc {
+        width: max-content;
+        height: 120px;
+        display: flex;
+        
+        p {
+            width: 200px;
+        }
+
+        h1 {
+            width: 340px;
+            font-weight: 400;
+        }
+        div {
+            height: 100%;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            button {
+                padding: 10px 30px;
+                border: none;
+                border-radius: 5px;
+                color: #fff;
+                background-color: #1E48EC;
+            }
+        }
+    }
+
+    .third__cart {
+        width: 60%;
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .item {
+            width: 32%;
+            height: 180px;
+            background-color: #E5E5E5;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 90px;
+            }
+        }
+    }
+}
